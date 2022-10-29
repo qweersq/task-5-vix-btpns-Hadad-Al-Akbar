@@ -45,5 +45,5 @@ func main() {
 		photoRoutes.PUT("/:id", photoController.Update)
 		photoRoutes.DELETE("/:id", photoController.Delete)
 	}
-	r.Run()
+	r.Run() //listen http://127.0.0.1:8080
 }
